@@ -201,7 +201,7 @@ export default function App() {
           {NAV_LINKS.map((l) => (
             <button key={l} onClick={() => scrollTo(l)}
               style={{
-                background: "none", border: "none", cursor: "pointer",
+                border: "none", cursor: "pointer",
                 padding: "8px 16px", borderRadius: 8,
                 color: activeSection === l ? "#0ea5e9" : "#94a3b8",
                 fontWeight: activeSection === l ? 600 : 400,
